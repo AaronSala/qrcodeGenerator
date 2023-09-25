@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #222;
+    
+    
+}
+.card{
+width: 90%;
+max-width: 500px;
+background-image: linear-gradient(185deg, #fefe, rgb(255, 252, 255));
+
+color: gray;
+text-align: center;
+margin: 50px auto 0;
+border-radius: 8px;
+padding: 2rem;
+}
+.input{
+    border: none;
+    border-bottom: 2px solid gray;
+    height: 2rem;
+    border-radius: 5px;
+    padding-left: 1rem;
+
+}
+.submit{
+    background: rgb(8, 119, 223);
+    padding: .5em;
+    margin-top: 1rem;
+    padding-left:2rem;
+    padding-right: 2rem;
+    border-radius: .3rem;
+    border: none;
+    color:lightgray;
+    }
+
+    #imgBox{
+        width: 200px;
+        border-radius: 5px;
+        max-height: auto;
+        overflow: hidden;
+        border: 1px solid #d1d1d1;
+        max-height: 300px;
+        margin: 10px auto;
+    }
+    #imgBox img{
+        width: 100%;
+        padding: 10px;
+        transition: max-height 1s;
+    }
+   
