@@ -46,10 +46,11 @@ padding: 2rem;
         border: 1px solid #d1d1d1;
         max-height: 300px;
         margin: 10px auto;
+        transition: max-height 1s;
     }
     #imgBox img{
         width: 100%;
         padding: 10px;
-        transition: max-height 1s;
+        
     }
    
